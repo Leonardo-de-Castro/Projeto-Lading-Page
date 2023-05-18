@@ -160,6 +160,17 @@ li {
     
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
 #section-c {
     background: #fff;
     color: #333;

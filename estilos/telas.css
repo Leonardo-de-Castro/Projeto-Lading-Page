@@ -1,7 +1,47 @@
 @charset "UTF-8";
 
-@media (min-width: 700px)
-.grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+@media screen and (min-width: 768px) {
+    .grid {
+       display: grid;
+       grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+       align-content: center;
+   }
+   }
+
+@media screen and (min-width: 768px) {
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+}
+}
+
+@media screen and (min-width: 768px) {
+   .content-wrap, #section-b ul {
+       grid-column: 2/4;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    #section-b li {
+    width: 32%;
+}
+}
+
+@media screen and (min-width: 768px) {
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
+}
+}
+
+@media screen and (min-width: 768px) {
+    #section-a .content-text p {
+        padding-top: 0;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .box, #main-footer div {
+    grid-column: span 2;
+}
 }
