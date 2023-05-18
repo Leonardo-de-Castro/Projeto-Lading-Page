@@ -5,11 +5,10 @@
     padding: 0px;
 }
 
-header {
-    
+html {
     display: block;
-}
     
+}
 
 body {
     margin: 0px;
@@ -21,13 +20,170 @@ body {
     text-align: center;
 }
 
-header#showcase {
-    background: rgba(0, 0, 0, 0.068) url(../imagens/fundo.jpg) no-repeat;
+
+header {
+    display: block;
+    
+}
+    
+#showcase {
+    
     min-height: 450px;
     color: #fff;
     text-align: center;
 }
 
+#showcase .bg-image {
+    position: absolute;
+    background: #333 url(../imagens/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150%;
+    height: 550px;
+    z-index: -2;
+    opacity: 0.2;
+}
+
+#showcase .content-wrap, #section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+div {
+    display: block;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+} 
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+a:-webkit-any-link {
+    color: #eaeaea;
+    cursor: pointer;
+    text-decoration: underline;
+}
 main {
+    display: block;
+}
+
+#section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+ul {
+    
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
     
 }
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+    
+}
+
+li {
+    display: inline-block;
+    text-align: webkit-match-parent;
+    
+    
+}
+
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+#section-d .box:first-child {
+    background: #2690d4;
+}
+
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+}
+
+#main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    display: block;
+}
+
+
