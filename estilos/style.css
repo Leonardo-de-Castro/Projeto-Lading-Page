@@ -104,6 +104,12 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
+a:hover {
+background-color: #d3d3d3;
+color: #000;
+}
+
 main {
     display: block;
 }
